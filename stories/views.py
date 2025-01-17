@@ -11,12 +11,12 @@ from elevenlabs.client import ElevenLabs
 from together import Together
 
 from .models import Story
-ELEVENLABS_API_KEY = 'sk_266ba8895079bf8eebaa6e347c40680b8698726ab4da23e8'
+ELEVENLABS_API_KEY = 'sk_23e415e1124ad6694e135c928c322889c58c5a79182002e5'
 
 client = ElevenLabs(
     api_key=None,
 )
-os.environ["REPLICATE_API_TOKEN"] = "r8_070aO4rwYhGO7AR8sCJw2Ybt7at7YCo48lPxZ"
+os.environ["REPLICATE_API_TOKEN"] = "r8_bIR9nAabxHD7Tpss1n3OfS1YbsblZwp3Sfj97"
 together_client = Together(api_key="a356f3a9aff6efcb0b64bdfa6801d28ea6e9988db52fdef8903770e34ea4d8b1")
 
 
